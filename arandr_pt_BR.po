@@ -1,0 +1,209 @@
+# translation of de.po to Português do Brasil
+# ARandR
+# Copyright (C) 2008 chrysn <chrysn@fsfe.org
+# This file is distributed under the same license as the arandr package.
+# chrysn <chrysn@fsfe.org>, 2008.
+# Phantom X <megaphantomx at bol.com.br>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
+"POT-Creation-Date: 2015-05-21 10:02+0200\n"
+"PO-Revision-Date: 2024-04-05 18:01+0000\n"
+"Last-Translator: marcelocripe <marcelocripe@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"arandr/translations/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+#: screenlayout/gui.py:117
+msgid "_Layout"
+msgstr "_Disposição"
+
+#: screenlayout/gui.py:128
+msgid "_View"
+msgstr "_Visualizar"
+
+#: screenlayout/gui.py:130
+msgid "_Outputs"
+msgstr "_Saídas"
+
+#: screenlayout/gui.py:131
+msgid "Dummy"
+msgstr "Simulação"
+
+#: screenlayout/gui.py:133
+msgid "_System"
+msgstr "_Sistema"
+
+#: screenlayout/gui.py:134
+msgid "_Keybindings (Metacity)"
+msgstr "_Atalhos do Teclado do Metacity"
+
+#: screenlayout/gui.py:136
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: screenlayout/gui.py:140
+msgid "1:4"
+msgstr "1:4"
+
+#: screenlayout/gui.py:141
+msgid "1:8"
+msgstr "1:8"
+
+#: screenlayout/gui.py:142
+msgid "1:16"
+msgstr "1:16"
+
+#: screenlayout/gui.py:189
+msgid "Script Properties"
+msgstr "Propriedades do Programa"
+
+#: screenlayout/gui.py:201
+msgid "Script"
+msgstr "Programa"
+
+#: screenlayout/gui.py:217
+#, python-format
+msgid ""
+"XRandR failed:\n"
+"%s"
+msgstr ""
+"O XRandR falhou::\n"
+"%s"
+
+#: screenlayout/gui.py:227
+msgid "Open Layout"
+msgstr "Abrir uma Disposição"
+
+#: screenlayout/gui.py:239
+msgid "Save Layout"
+msgstr "Salvar a Disposição"
+
+#: screenlayout/meta.py:23
+msgid "ARandR Screen Layout Editor"
+msgstr "Editor de Disposição da Tela do ARandR"
+
+#. # translators, please translate in the style of "Another XRandR GUI
+#. # (ein weiteres GUI für XRandR)" so users get both the explanation of
+#. # the acronym and a localized version.
+#: screenlayout/meta.py:27
+msgid "Another XRandR GUI"
+msgstr "Outra Interface Gráfica para o XRandR"
+
+#: screenlayout/metacity.py:53
+msgid "Accelerator"
+msgstr "Acelerador"
+
+#: screenlayout/metacity.py:54
+msgid "Action"
+msgstr "Ação"
+
+#: screenlayout/metacity.py:120
+msgid "disabled"
+msgstr "Desativado"
+
+#: screenlayout/metacity.py:135
+msgid "New accelerator..."
+msgstr "Novo Acelerador..."
+
+#: screenlayout/metacity.py:192
+msgid "no action"
+msgstr "Sem Ação"
+
+#: screenlayout/metacity.py:228
+msgid "incompatible configuration"
+msgstr "Esta configuração não é compatível"
+
+#: screenlayout/metacity.py:235
+msgid "other application"
+msgstr "Outro Aplicativo"
+
+#: screenlayout/metacity.py:255
+#, python-format
+msgid "No files in %(folder)r. Save a layout first."
+msgstr ""
+"Não há arquivos na pasta %(folder). Por favor, salve primeiro uma disposição."
+
+#: screenlayout/metacity.py:284
+msgid "gconf not available."
+msgstr "O gerenciador de configurações globais ‘gconf’ não está disponível."
+
+#: screenlayout/metacity.py:285
+msgid ""
+"In order to configure metacity, you need to have the python gconf module "
+"installed."
+msgstr ""
+"Para configurar o gerenciador de janelas ‘Metacity’, você precisa ter o "
+"módulo do ‘gconf’ do Python instalado no seu sistema operacional."
+
+#: screenlayout/metacity.py:292
+msgid "Keybindings (via Metacity)"
+msgstr "Atalhos do Teclado do Metacity"
+
+#: screenlayout/metacity.py:305
+msgid ""
+"Click on a button in the left column and press a key combination you want to "
+"bind to a certain screen layout. (Use backspace to clear accelerators, "
+"escape to abort editing.) Then, select one or more layouts in the right "
+"column.\n"
+"\n"
+"This will only work if you use metacity or another program reading its "
+"configuration."
+msgstr ""
+"Clique em um botão na coluna da esquerda e pressione uma combinação de "
+"teclas que você quer associar a uma determinada disposição da tela. Utilize "
+"a tecla Backspace (retrocesso ou voltar um espaço) para limpar os "
+"aceleradores ou pressione a tecla Esc (sair ou escapar ou fechar) para "
+"cancelar a edição. Em seguida, selecione uma ou mais disposições na coluna "
+"da direita.\n"
+"\n"
+"Esta opção somente funcionará se você utilizar o gerenciador de janelas "
+"‘Metacity’ ou outro programa que seja capaz de ler as suas configurações."
+
+#: screenlayout/widget.py:61
+msgid ""
+"Your configuration does not include an active monitor. Do you want to apply "
+"the configuration?"
+msgstr ""
+"A sua configuração não inclui um monitor ativo. Você quer aplicar a "
+"configuração?"
+
+#: screenlayout/widget.py:327
+msgid "Active"
+msgstr "Ativo"
+
+#: screenlayout/widget.py:335
+msgid "Primary"
+msgstr "Primário"
+
+#: screenlayout/widget.py:349
+#, python-format
+msgid "Setting this resolution is not possible here: %s"
+msgstr "Não é possível configurar esta resolução: %s"
+
+#: screenlayout/widget.py:362
+#, python-format
+msgid "This orientation is not possible here: %s"
+msgstr "Não é possível aplicar esta orientação: %s"
+
+#: screenlayout/widget.py:368
+msgid "Resolution"
+msgstr "Resolução"
+
+#: screenlayout/widget.py:370
+msgid "Orientation"
+msgstr "Orientação"
+
+#: screenlayout/xrandr.py:275
+msgid "A part of an output is outside the virtual screen."
+msgstr "Uma parte da saída está fora da tela virtual."
+
+#: screenlayout/xrandr.py:278
+msgid "An output is outside the virtual screen."
+msgstr "Uma saída está fora da tela virtual."
